@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main3.css">
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .resume-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Profile Image" class="profile-img">
+        <h2>Your Name</h2>
+        <h3>Your Job Title</h3>
+    </header>
+    <main class="resume-container">
+        <section>
+            <h1>About Me</h1>
+            <p>A brief introduction about yourself, your experience, and what you do.</p>
+        </section>
+        <section>
+            <h1>Skills</h1>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Experience</h1>
+            <ul>
+                <li>Job Title at Company - Year</li>
+                <li>Another Job Title at Another Company - Year</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Contact</h1>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +123456789</p>
+        </section>
+    </main>
+</body>
+</html>
